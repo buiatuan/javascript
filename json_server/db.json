@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kiến thức cho người mới",
+      "description": "Dạy kiến thức cơ bản cho người mới bắt đầu"
+    },
+    {
+      "name": "Sử dụng Postman làm việc với REST API 2",
+      "description": "Học cách dùng Postman để read, delete, update, create dư liệu",
+      "id": 2
+    },
+    {
+      "name": "Sử dụng Postman làm việc22 với REST API 2",
+      "description": "Học cách dùng Postman để read, delete, update, create dư liệu23",
+      "id": 3
+    }
+  ]
+}

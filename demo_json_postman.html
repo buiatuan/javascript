@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JSON Postman</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <h2>Danh sách khóa học</h2>
+        <ul id="list-courses">
+            <li>abc</li>
+            <li>asda</li>
+            <li>casca</li>
+            <li>csaa</li>
+        </ul>
+        <button onclick="deleteCourse(this)">xoa</button>
+    </div>
+
+    <div>
+        <div>
+            <label>Name</label>
+            <input type="text" name="name"/>
+        </div>
+        <div>
+            <label>Description</label>
+            <input type="text" name="description"/>
+        </div>
+        <div>
+            <button id="create" type="submit">Create</button>
+        </div>
+    </div>
+
+<!--script-->
+<script src="./js/demo_postman.js"></script>
+    <script>
+        // function delete course
+        function deleteCourse(e){
+            var course = document.getElementById('list-courses');
+            if (course){
+                course.remove();
+                e.remove();
+            }
+        }
+    </script>
+</body>
+</html>
